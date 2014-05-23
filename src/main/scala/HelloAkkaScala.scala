@@ -13,12 +13,11 @@ object HelloAkkaScala  {
     system.shutdown()
     system.awaitTermination()
   }
-
 }
 
 object ListService {
 
-  val MAX_SLEEP_TIME = 100
+  val MAX_SLEEP_TIME = 1000
 
   val rand = new Random()
 
